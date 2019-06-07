@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.card {
+  background-color: #fff;
+  min-height: 600px;
+  padding: 30px 20px;
+  border: 1px solid black;
+}
+
+.card.space {
+  background-image: linear-gradient(45deg, white, #b5ffff);
+  color: black;
+  text-shadow: 0 0 1px #000;
+  text-transform: uppercase;
+}
+
+.item:not(:last-child) {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f0f0f1;
+}
+
+.card.space .item:not(:last-child) {
+  border-bottom: 3px solid #fff;
+}
+
+.item-label {
+  margin-bottom: 10px;
+}
+
+button,
+input {
+  padding: 15px 30px;
+  font-size: 20px;
+}
