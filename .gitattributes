@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+{
+  "printWidth": 100,
+  "singleQuote": true
+}
